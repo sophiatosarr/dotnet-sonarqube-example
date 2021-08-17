@@ -11,6 +11,8 @@ This app is an example app for learning how to use SonarQube on your projects. F
 - [.NET Core](https://dotnet.microsoft.com/download)
 - [SonarScanner for .NET Core](https://github.com/SonarSource/sonar-scanner-msbuild/releases/download/4.7.1.2311/sonar-scanner-msbuild-4.7.1.2311-netcoreapp2.0.zip)
 
+**Table of Contents**
+
 - [Getting Started](#getting-started)
 - [Help](#help)
 - [License](#license)
