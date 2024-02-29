@@ -1,45 +1,10 @@
-# SampleApp-SonarQube
-## Teste
-# Analyze Your Code Using SonarQube, Docker and .NET Core
+#Realizando análise de código estático com sonarqube
+## SonarQube
+SonarQube é uma plataforma de código aberto para avaliação contínua da qualidade do código fonte. É projetada para ajudar desenvolvedores a identificar e corrigir problemas de código, melhorar a segurança e manter boas práticas de programação. O SonarQube suporta diversas linguagens de programação, incluindo Java, C#, JavaScript, TypeScript, Python, entre outras.
 
-This app is an example app for learning how to use SonarQube on your projects. For more details please read [Analyze Your Code Using SonarQube, Docker and .NET Core](link_to_replace) to see a detailed instruction on how to do that.
+O SonarQube é uma ferramenta valiosa para equipes de desenvolvimento que desejam garantir a qualidade do código, detectar e corrigir problemas cedo no ciclo de desenvolvimento, e melhorar a manutenibilidade e a segurança do software.
 
-**Prerequisites:**
+##SonarScanner
+É uma ferramenta de linha de comando ou um plugin para diversas ferramentas de build (como Maven, Gradle, MSBuild) que é usada para analisar o código-fonte de um projeto e enviar os resultados para o SonarQube. O SonarScanner coleta dados do código e os envia para o SonarQube para que a plataforma possa processar essas informações, gerar relatórios e fornecer feedback sobre a qualidade do código.
 
-- [Java 11](https://adoptopenjdk.net/)+
-- [Docker](https://docs.docker.com/get-docker/)
-- [.NET Core](https://dotnet.microsoft.com/download)
-- [SonarScanner for .NET Core](https://github.com/SonarSource/sonar-scanner-msbuild/releases/download/4.7.1.2311/sonar-scanner-msbuild-4.7.1.2311-netcoreapp2.0.zip)
-
-**Table of Contents**
-
-- [Getting Started](#getting-started)
-- [Help](#help)
-- [License](#license)
-
-## Getting Started
-
-Begin with running SonarQube on Docker:
-```sh
-docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
-```
-
-**NOTE:** You'll be able to login with `admin/admin`. After first login, you will be promted to change the default credentials.
-
-In order to run SonarScanner, run the following commands:
-
-```sh
-dotnet sonarscanner begin /k:"project-key" /d:sonar.login=admin /d:sonar.password=admin
-dotnet build <path_to_solution.sln>
-dotnet sonarscanner end /d:sonar.login=admin /d:sonar.password=admin
-```
-
-> **NOTE:** Remember to replace "path_to_solution" and "password" with correct ones for your example.
-
-## Help
-
-Please post any questions as comments on the [blog post](link_to_replace), or visit our [Okta Developer Forums](https://devforum.okta.com/). You can also ask them on [Stack Overflow with the `sonarqube` tag](https://stackoverflow.com/tags/sonarqube).
-
-## License
-
-Apache 2.0, see [LICENSE](LICENSE).
+## Resultados 

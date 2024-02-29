@@ -1,0 +1,13 @@
+﻿C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\Controllers\SampleController.cs
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\Program.cs
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\SampleModel.cs
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\Startup.cs
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\obj\Debug\net5.0\SampleApp.AssemblyInfo.cs
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\obj\Debug\net5.0\SampleApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\appsettings.Development.json
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\appsettings.json
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\.gitignore
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\LICENSE
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\README.md
+C:\Users\Inteli\Documents\GitHub\dotnet-sonarqube-example\Properties\launchSettings.json
