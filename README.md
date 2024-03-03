@@ -10,3 +10,4 @@ O SonarQube é uma ferramenta valiosa para equipes de desenvolvimento que deseja
 ## Resultados 
 ![image](https://github.com/sophiatosarr/dotnet-sonarqube-example/assets/99216420/3d03161b-ba60-4c36-9182-c0b467069d65)
 
+![image](https://github.com/sophiatosarr/dotnet-sonarqube-example/assets/99216420/0219bc23-b177-4053-a8f6-e9c556b4b473)
